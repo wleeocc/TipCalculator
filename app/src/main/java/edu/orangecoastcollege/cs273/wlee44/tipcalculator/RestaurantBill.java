@@ -2,6 +2,8 @@ package edu.orangecoastcollege.cs273.wlee44.tipcalculator;
 
 /**
  * Created by wlee44 on 9/8/2016.
+ *
+ *
  */
 public class RestaurantBill {
 
