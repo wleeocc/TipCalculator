@@ -59,6 +59,9 @@ public class MainActivity extends AppCompatActivity {
         public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
             // Try to get the amount from amountEditText
             try {
+                // If the charSequence has 0 length, set amount to 0.0
+
+                // else do this below
                 double amount = Double.parseDouble(charSequence.toString()) / 100.0;
                 currentBill.setAmount(amount);
             }
